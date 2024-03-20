@@ -1,0 +1,40 @@
+.navTopItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.navRtText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.menu {
+  margin-top: 72px;
+  background: #e5e5e5;
+  border: 1px solid #000000;
+  text-align: center;
+}
+.menuItem {
+  border-right: 1px solid #000000;
+  padding: 17px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.menuItem:last-child {
+  border-right: 0px;
+}

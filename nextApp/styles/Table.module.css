@@ -1,0 +1,92 @@
+.tableContainer {
+  margin-top: 139px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 74px;
+  font-family: "Inter";
+}
+
+.tableTopContent {
+  margin-top: 8px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+.tableHeaderLt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0px 0px 8px 0px;
+}
+.tableHeaderRt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0px 0px 12px 0px;
+}
+.tableBody {
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+}
+.tableRow {
+  border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+.css-1yhpg23-MuiTableCell-root {
+  padding: 19px 4px;
+}
+.tableBtnStyles {
+  margin-bottom: 285px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.tableButton {
+  background: #e5e5e5;
+  border: 1px solid #000000;
+  padding: 16px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: black;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .tableButton {
+    width: 280px;
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+  .tableButton {
+    width: 400px;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  .tableButton {
+    width: 695px;
+  }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+  .tableButton {
+    width: 795px;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .tableButton {
+    width: 795px;
+  }
+}
